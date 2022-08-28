@@ -68,14 +68,12 @@
     </div>
 
 
+    <div class="destTableLocation"  action = "procCallIns.cfm"  id="destTableLocation">
+ 
+<form name = 'theform'   act method = "post" >
 
-
-    <div class="destTableLocation">
-
-
-
-        <table class="destTable"  border="1"  id="destTable">
-            <tr   <tr style="background-color: purple;  green; color: white;" >
+        <table class="destTable"  border="1"   style="width: ;auto" id="destTable">
+            <tr   <tr style="background-color: purple;  color: white;" >
                 <td>
                     Callsign
                 </td>
@@ -85,10 +83,13 @@
             </tr>
 
         </table>
+ <button type="submit" name="www" >Click this</button>
+ <input type="submit"  value="Submit">
 
+</from>
 
     </div>
-
+   
 
 
 

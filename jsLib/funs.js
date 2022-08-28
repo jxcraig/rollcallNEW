@@ -15,7 +15,7 @@ function doJson() {
 
 function addToDestTable() {
 
-	alert('xxxxxxxxxxx');
+
 	var csinDestTable = false;
 
 	//alert(`the sent callsign is: ${arguments[0]}`);
@@ -41,6 +41,8 @@ function addToDestTable() {
 	}
 	else {
 
+
+
 		var table = document.getElementById("destTable");
 		var row = table.insertRow(-1);
 		var cell1 = row.insertCell(0);
@@ -53,12 +55,17 @@ function addToDestTable() {
 		var destTableRows = document.getElementById('destTable').rows.length - 1;
 		document.getElementById('totcheckins').innerHTML = ` Total Checkins: ${destTableRows}`;
 		//if (destTableRows.height > 9) {
+		var sizeofObj = document.getElementById(destTableLocation.color);
 
 
 		//}
 
 	}
 
+
+	function newFunction() {
+		alert('xxxxxxxxxxx');
+	}
 	// alert(destTable.rows);
 	//console.log(destTable.rows)
 	//alert(inTableCallsign === arguments[0]);

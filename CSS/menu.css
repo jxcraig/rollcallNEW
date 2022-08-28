@@ -64,34 +64,27 @@ body {
 }
 
 .destTableLocation  {
- display: block;
+  display: block;
   position: absolute;
   left: 6in;
-  padding: 20px;
-  height: 12vw;
- 
-  width: 10vw ;
-   border: 5px solid dodgerblue ;
-    top: 5vw;
+  padding: 5px;
+  height: 25vw;
+  width: 13rem;
+  border: 5px solid dodgerblue ;
+  top: 5vw;
  overflow: auto;
+  border: 5px solid dodgerblue ;
 
 }
 
 .destTable {
   display: block;
-  position: fixed;
-  top: 1in;
-  padding: 10px;
-  left: 6in;
-  right: 2in;
-  height: 5in;
+  position:  relative;
+
+  padding: 3px;
   border: 5pt;
   overflow: auto;
-  align-content: center;
-  text-align: center;
-  width: max-content;
-border-style:  solid ,yellow;
-border: #0000ff;
+  align-items: center; 
 }
 
 
