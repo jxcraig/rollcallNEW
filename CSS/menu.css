@@ -1,0 +1,88 @@
+/* CSS Document */
+
+body {
+
+  font-family: arial;
+}
+
+.wrapper {
+  width: 6in;
+  margin: 0 auto;
+  left: 2in;
+  top: 2in;
+  position: absolute;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  float: left;
+  width: auto;
+  position: relative;
+}
+.nav li a {
+  background: DodgerBlue;
+  color: #0000ff;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-top: 1px solid #069;
+}
+.nav li a:hover {
+  color: #069;
+}
+.nav ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+.sourceTable {
+  display:block;
+  position: absolute;
+  left: 2in;
+  right: 2in;
+  padding: 3px;
+  height: 5in;
+  top: 1in;
+  overflow: auto;
+  align-content: center;
+  text-align: center;
+  width: max-content;
+  border: 2px;
+  border: #0000ff;
+
+ 
+}
+
+.destTable {
+  display: block;
+  position: fixed;
+  top: 1in;
+  padding: 10px;
+  left: 6in;
+  right: 2in;
+  height: 5in;
+  border: 5pt;
+  overflow: auto;
+  align-content: center;
+  text-align: center;
+  width: max-content;
+border-style:  solid ,yellow;
+border: #0000ff;
+}
+
+
+.thetotal {
+  position: absolute;
+  display: inline-block  ;
+  top: 1in;
+  
+  left: 9in;
+  height: 5in;
+ 
+  
+}

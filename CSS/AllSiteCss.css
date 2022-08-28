@@ -1,0 +1,140 @@
+@charset "utf-8";
+header {
+	font-family: Arial, Helvetica, sans-serif;
+	position: fixed;
+	width: 80%;
+	top: 5%;
+	right: 10%;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-bottom-color: white;
+	border-left-color: white;
+	background-color: lightblue;
+	color: white;
+	height: 6%;
+	display: flex ;
+}
+.clubTitle {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: black;
+	
+	line-height: 20px;
+	text-shadow:#000  ;
+	alignment-adjust:middle ;
+}
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #69F;
+	width: 5in;
+	padding: 1px 1px;
+	font-size: 36px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: auto;
+	font-size: x-large;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bolder;
+	text-transform: capitalize;
+	margin: 5px;
+	padding: 5px;
+}
+
+.dropdown .dropbtn {
+	font-size: 14px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 8px 10px;
+	background-color: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-weight: bolder;
+}
+#GoodMorning {
+	background-color: #69F;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 2px;
+	padding: 2px;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #999;
+	color: #000;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #3CF;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 2px 4px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.finishedBtn {
+	position: relative;
+	left: 1in;
+	top: 1in;
+	float: left;
+	padding: 5px;
+}
+
+
+.dropdown-content a:hover {
+	background-color: lightblue;
+	font-size: 18px;
+	color: #09F;
+	margin: 5px;
+	padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.mainMenu {
+	position: fixed;
+	left: 10%;
+	top: 15%;
+}
+.callsignBtn {
+	color: ##CCC;
+}

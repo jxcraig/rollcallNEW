@@ -1,0 +1,13 @@
+.flex-list {
+	display: flex;
+	background-color: DodgerBlue;
+	height: 10%;
+	width: 175px;
+	justify-content: space-between;
+	justify-content: space-around;
+	flex-direction: column;
+	text-align: left;
+	position: relative;
+	left: 55%;
+	top:50%;
+}

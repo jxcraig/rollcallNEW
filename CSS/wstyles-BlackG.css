@@ -1,0 +1,225 @@
+@charset "utf-8";
+.Wmemmenu {
+	background-color: #0080C0;
+	position: absolute;
+	left: 1in;
+	top: 1.5in;
+	color: #FFF;
+	width: 5in;
+}
+.Windexstart {
+	position: absolute;
+	left: 1.01in;
+	top: 1.406in;
+	width: 787px;
+}
+.wgetnetdate {
+	position: absolute;
+	left: 2in;
+	top: 1.448in;
+	width: 9in;
+}
+
+.Wpendingstatus {
+	position: absolute;
+	left: 1in;
+	top: 1.5in;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+
+.Wrosterfinished {
+	font-size: 24px;
+	font-weight: bold;
+	color: #F00;
+}
+.apptitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #06C;
+	position: absolute;
+	left: 1.5in;
+	top: 1.5in;
+}
+.xxx {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	font-weight: bold;
+	color: #F0F;
+	position: absolute;
+	left: 2in;
+	top: 3in;
+}
+
+
+.warfatitalformat {
+	font-size: 14px;
+	font-style: italic;
+	color: #933;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.ColorPurple {
+	color: #8080FF;
+}
+.Wforemail {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #06F;
+	position: absolute;
+	left: 3in;
+	top: 1.5in;
+	white-space: pre;
+	text-align: right;
+}
+.wnetcontrol {
+	position: absolute;
+	left: 1in;
+	top: 2in;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	width: 2in;
+}
+.wnetstartheading {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 1in;
+	top: 1.5in;
+	border: thin solid #00F;
+	font-size: 14px;
+}
+.wnetstartfooting {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 1in;
+	top: 3in;
+	border: thin solid #00F;
+	font-size: 14px;
+}
+
+
+.wnetmode {
+	position: absolute;
+	left: 3in;
+	top: 2in;
+}
+.wgetcheckinscallsign {
+	position: absolute;
+	left: 3.323in;
+	top: 0in;
+	width: 248px;
+	height: 114px;
+}
+.wstart2netdate {
+	position: fixed;
+	left: 1.5in;
+	top: 1in;
+	width: 1in;
+}
+.wstart2netcontrol {
+	position: absolute;
+	left: 4in;
+	top: 4in;
+}
+.wstart2netMode {
+	position: absolute;
+	left: 5in;
+	top: 4in;
+}
+.wstart2netSubmit {
+	position: absolute;
+	left: 1in;
+	top: 2.5in;
+}
+.wafterstart2Table {
+	font-family: Arial, Tahoma;
+	font-size: 10px;
+	font-weight: lighter;
+}
+.wstart2CheckinDiv {
+	position: absolute;
+	left: 0.021in;
+	top: 1.5in;
+	width: 5in;
+}
+.wstaart2Statusx {
+	position: absolute;
+	width: 8.229in;
+	height: 44px;
+	font-family: Arial, Tahoma;
+	font-size: 16px;
+	color: #F00;
+}
+.aPageStartLoc
+{
+	width: auto;
+	top: 1in;
+	position: absolute;
+	left: 0.844in;
+	background-color: #FFF;
+}
+.adminPageGoodLogined
+{
+	width: auto;
+	top: 1.75in;
+	position: absolute;
+	left: 1.5in;
+	background-color: #FFF;
+}
+
+
+.adminMenu
+{
+	width: 8in;
+	top: 2in;
+	position: absolute;
+	left: 1in;
+	background-color: #CCC;
+}
+
+.controls {
+	position: relative;
+	left: 4.396in;
+	top: 2.031in;
+}
+.checkinCalendar {
+	position: relative;
+	left: 2in;
+	top: 1.40in;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #333;
+	text-align: center;
+}
+
+.callsignBtn {
+	background-color: #99CCFF;
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+	
+.callsignBtn #btnCallsign {
+	position: relative;
+	color: #000;
+	width: 100%;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
