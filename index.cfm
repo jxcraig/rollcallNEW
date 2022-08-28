@@ -34,24 +34,25 @@
         </cfoutput>
     </div>
 
-    <div class="sourceTable">
+    <div class="sourceTableLocation">
         <cfoutput>
 
 
-            <table border="1" id="stid">
-                <tr>
-                    <td>
+           
+            <table border="1" id="stid"   class = "sourceTable" >
+                <tr style="background-color:  green; color: white;" >
+                    <th>
                         Callsign
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         Name
-                    </td>
+                    </th>
                 </tr>
 
                 <cfloop query="rollcallMembers">
                     <cfset w=setccap(#fname#)>
                         <tr>
-                            <td onclick="addToDestTable('#callsign#','#setccap(fname)#', #wid#,this)"
+                            <td onclick="addToDestTable('#callsign#','#setccap(fname)#', '#wid#' ,this)"
                                 ondblclick="removefromDestTable('#callsign#',this)"> #Callsign#
                             </td>
                             <td>
@@ -69,12 +70,12 @@
 
 
 
-    <div>
+    <div class="destTableLocation">
 
 
 
-        <table class="destTable" id="destTable">
-            <tr>
+        <table class="destTable"  border="1"  id="destTable">
+            <tr   <tr style="background-color: purple;  green; color: white;" >
                 <td>
                     Callsign
                 </td>

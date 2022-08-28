@@ -40,22 +40,41 @@ body {
   padding: 0;
 }
 
-.sourceTable {
+.sourceTableLocation  {
   display:block;
   position: absolute;
   left: 2in;
-  right: 2in;
-  padding: 3px;
-  height: 5in;
-  top: 1in;
-  overflow: auto;
-  align-content: center;
-  text-align: center;
-  width: max-content;
-  border: 2px;
-  border: #0000ff;
-
  
+  padding: 20px;
+  height: 40rem;
+  overflow: auto;
+  width: 10vw ;
+   border: 5px solid dodgerblue ;
+   top: 5vw;
+
+}
+.sourceTable {
+ top: 1in;
+ 
+  align-content: left;
+  text-align: left;
+ 
+  padding:5px ;
+   overflow: auto;
+}
+
+.destTableLocation  {
+ display: block;
+  position: absolute;
+  left: 6in;
+  padding: 20px;
+  height: 12vw;
+ 
+  width: 10vw ;
+   border: 5px solid dodgerblue ;
+    top: 5vw;
+ overflow: auto;
+
 }
 
 .destTable {
