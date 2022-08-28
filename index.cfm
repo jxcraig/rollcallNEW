@@ -68,9 +68,11 @@
     </div>
 
 
-    <div class="destTableLocation"  action = "procCallIns.cfm"  id="destTableLocation">
- 
-<form name = 'theform'   act method = "post" >
+    <div class="destTableLocation"   id="destTableLocation">
+  
+            
+       
+<form name = 'theform'  action = "procCallIns.cfm"  method = "post" >
 
         <table class="destTable"  border="1"   style="width: ;auto" id="destTable">
             <tr   <tr style="background-color: purple;  color: white;" >
@@ -83,6 +85,14 @@
             </tr>
 
         </table>
+
+<cfoutput >
+    
+
+
+</cfoutput>
+
+<input name = "thewid"  type="hidden" value = #wid#>
  <button type="submit" name="www" >Click this</button>
  <input type="submit"  value="Submit">
 

@@ -45,7 +45,6 @@ function addToDestTable() {
 
 		var table = document.getElementById("destTable");
 		var row = table.insertRow(-1);
-		var cell1 = row.insertCell(0);
 		var cell2 = row.insertCell(1);
 		cell1.innerHTML = arguments[0];
 		cell2.innerHTML = arguments[1];
@@ -58,14 +57,16 @@ function addToDestTable() {
 		var sizeofObj = document.getElementById(destTableLocation.color);
 
 
-		//}
+
 
 	}
 
+}
 
-	function newFunction() {
-		alert('xxxxxxxxxxx');
-	}
+
+function newFunction() {
+	alert('xxxxxxxxxxx');
+}
 	// alert(destTable.rows);
 	//console.log(destTable.rows)
 	//alert(inTableCallsign === arguments[0]);
