@@ -76,7 +76,7 @@
                         Callsign
                     </td>
                     <td>
-                        Namexx
+                        Name
                     </td>
                 </tr>
                 
