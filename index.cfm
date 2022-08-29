@@ -18,6 +18,11 @@
 
 <body>
 
+<form name="formRollcall" method="post" action="proccallins.cfm">
+<input type="text" value="ABCD"
+
+</form>
+
     <cfoutput>
 
         <cfquery datasource="wclubdb" name="rollcallMembers">
@@ -26,11 +31,11 @@
         </cfquery>
     </cfoutput>
 
-    <button name="wer" onclick="showTableData()">Ge Row Count</button>
+    <button name="wer" onclick="showTableData()">Get Row Count</button>
 
     <div class="thetotal" id="totcheckins">
         <cfoutput>
-            ccccccccccccccccccccccccccccccccccccccccccccccc
+          
         </cfoutput>
     </div>
 
@@ -72,10 +77,10 @@
   
             
        
-<form name = 'theform'  action = "procCallIns.cfm"  method = "post" >
+<form name = 'formRollcall'  action = "procCallIns.cfm"  method = "post" >
 
         <table class="destTable"  border="1"   style="width: ;auto" id="destTable">
-            <tr   <tr style="background-color: purple;  color: white;" >
+            <tr   style="background-color: purple;  color: white;" >
                 <td>
                     Callsign
                 </td>
@@ -86,17 +91,10 @@
 
         </table>
 
-<cfoutput >
-    
+        <button type="submit" >Submit the form</button>
+</form>
 
 
-</cfoutput>
-
-<input name = "thewid"  type="hidden" value = #wid#>
- <button type="submit" name="www" >Click this</button>
- <input type="submit"  value="Submit">
-
-</from>
 
     </div>
    

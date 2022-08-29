@@ -16,9 +16,11 @@ function doJson() {
 function addToDestTable() {
 
 
+	//alert(`the sent callsign is: ${arguments[0]}`);
+
 	var csinDestTable = false;
 
-	//alert(`the sent callsign is: ${arguments[0]}`);
+
 
 	var destTable = document.getElementById('destTable');
 
@@ -28,7 +30,7 @@ function addToDestTable() {
 
 		if (arguments[0] === CallsigninDestTable) {
 			csinDestTable = true;
-			//alert(`the  callsign in the dest Table is: ${CallsigninDestTable} AND 
+			alert(`the  callsign in the dest Table is: ${CallsigninDestTable} AND 
 			//the callsign being netered is ${arguments[0]} is  record number : ${i}`);
 
 		}
@@ -45,7 +47,9 @@ function addToDestTable() {
 
 		var table = document.getElementById("destTable");
 		var row = table.insertRow(-1);
+		var cell1 = row.insertCell(0);
 		var cell2 = row.insertCell(1);
+
 		cell1.innerHTML = arguments[0];
 		cell2.innerHTML = arguments[1];
 		arguments[3].bgColor = "green";
@@ -53,57 +57,29 @@ function addToDestTable() {
 
 		var destTableRows = document.getElementById('destTable').rows.length - 1;
 		document.getElementById('totcheckins').innerHTML = ` Total Checkins: ${destTableRows}`;
-		//if (destTableRows.height > 9) {
-		var sizeofObj = document.getElementById(destTableLocation.color);
 
-
-
+		setRollcallRecord(arguments[2]);
 
 	}
 
 }
 
+function setRollcallRecord(wid) {
 
-function newFunction() {
-	alert('xxxxxxxxxxx');
-}
-	// alert(destTable.rows);
-	//console.log(destTable.rows)
-	//alert(inTableCallsign === arguments[0]);
+	//alert(wid);
+	//     // Create an input element for Full Name
+	var FN = document.createElement("input");
+	FN.setAttribute("type", "hidden");
+	FN.setAttribute("name", "wid");
+	FN.setAttribute("placeholder", "Full Name");
+	FN.setAttribute("value", wid);
 
+	formRollcall.appendChild(FN);
 
-	//alert(`Just to make sure I am at the right place ${ destTable.rows.item(i).cells[0].innerHTML }`);
-
-	// if (arguments[0] === CallsigninDestTable) {
-	// 	alert(`match is found at item number: ${ i }`)
-	//arguments[3].bgColor = "pink";
-	// }
-	// else {
-
-	// 	alert('this is NOT a MATCH')
-	// 	//arguments[3].bgColor = "lightgreen";
-	// }
-
-
-	//var qq = document.getElementById("stid");
-	//alert(`this is the sourcen Table ${ qq.rows.rowIndex }`);
-
-	//The rec augs (in order) 0 = callsign, 1= first name (fname), 2 = wid , 3 = this element (td) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
-
-
-	//alert(arguments[3].bgColor);
-	//alert(arguments[3].innerText);
-
-
-
-	//console.log(arguments);
-
-	//var st = document.getElementByTagName("tr");
-	//alert(st);
 
 
 }
+
 
 function removefromDestTable() {
 
