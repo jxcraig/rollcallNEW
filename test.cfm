@@ -9,7 +9,7 @@
 <body>
  
 
- <button    >Click this</button>
+ <button    >Click this Button for los of info</button>
   <button   onclick="makeroll()"  >Make a Record</button>
 
    <button onclick="sendit()">send from</button>
