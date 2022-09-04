@@ -9,14 +9,7 @@
 <body>
  
 
- <button    >Click this Button for los of info</button>
-  <button   onclick="makeroll()"  >Make a Record</button>
 
-   <button onclick="sendit()">send from</button>
-
-   <form method="post" name="cf" action="proccallins.cfm">
-   <button  type="submit"  >Submit Form</button>
-   </form>
 
 
     <script>
