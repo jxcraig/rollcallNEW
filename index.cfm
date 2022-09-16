@@ -18,6 +18,8 @@
 
 <body>
 
+        ul
+
     <form name="formRollcall" method="post" action="proccallins.cfm">
         <input type="text" value="ABCD" </form>
 
